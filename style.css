@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6,p, a {
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-10 { padding: 10%;   }
+.padded-r  { padding-right: 5%; }
 
 .margin-b-0 { margin-bottom: 0; }
 .margin-t-2 {margin-top: 2rem;}
@@ -64,9 +65,14 @@ h1,h2,h3,h4,h5,h6,p, a {
     font-size: 3rem;
 }
 
-.header-font {
+.header-font-sm {
     font-weight: 400;
     font-size: 3rem;
+}
+
+.header-font-lg {
+    font-weight: 400;
+    font-size: 5rem;
 }
 
 .break-font {font-size: 3rem;}
@@ -74,6 +80,7 @@ h1,h2,h3,h4,h5,h6,p, a {
 .button {
     border: 2px solid #e99883;
     border-radius: 30px;
+    background-color: #f9f5f4;
     color: inherit;
     text-decoration: none;
     letter-spacing: 0.2rem;
@@ -85,6 +92,8 @@ h1,h2,h3,h4,h5,h6,p, a {
     color: white;
     transition: 0.5s;
 }
+
+.bg-light {background-color: #f9f5f4;}
 
 /* Images */
 
@@ -121,6 +130,7 @@ h1,h2,h3,h4,h5,h6,p, a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;  
+    border-radius: 100% 100% 0 0;
  }
 
  .bg-map {
