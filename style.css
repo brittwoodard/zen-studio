@@ -16,27 +16,36 @@ Peach: #e99883
 Sand: #f9f5f4
 Font: #3b3b39 */
 
+ /* Typeography */
 
-/* Temporary Styles */
-
-/* * {
-    padding: 0.5rem;
-    border: 2px solid rgb(200,200,200);
+[class*="col-"] {
+    padding: 0;
 }
 
-html, 
 body {
-    border: none;
+   font-family: 'Playfair Display', serif;
+   color: #3b3b39;
 }
 
-h1,h2,h3,h4,h5,h6,p, a {
-    border: 2px solid #8b6a3d;
-} */
+h1, h2, h3 {
+   color: #e99883;
+   margin-bottom: 1rem;
+}
 
-.bg-image {background-color: #e99883;}
+h1 {
+    font-size: 15vw;
+    font-weight: 400;
+    text-transform: lowercase;
+}
 
-/* End Temporary Styles */
+p {
+    margin-bottom: 1rem;
+}
 
+a {
+    color: #e99883;
+    text-decoration: none;
+}
 
 /* Utility Classes */
 
@@ -48,17 +57,22 @@ h1,h2,h3,h4,h5,h6,p, a {
 
 
 .padded    { padding: 5%;    }
+.padded-0  { padding: 0;     }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-10 { padding: 10%;   }
 .padded-r  { padding-right: 5%; }
 
 .margin-b-0 { margin-bottom: 0; }
+.margin-b-05 {margin-bottom: 0.5rem;}
+.margin-b-4  {margin-bottom: 4rem;}
 .margin-t-2 {margin-top: 2rem;}
 
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
+
+.bold {font-weight: 700;}
 
 .fas {
     color: #e99883;
@@ -138,30 +152,4 @@ h1,h2,h3,h4,h5,h6,p, a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;  
- }
-
-
- /* Typeography */
-
- [class*="col-"] {
-     padding: 0;
- }
-
- body {
-    font-family: 'Playfair Display', serif;
-    color: #3b3b39;
- }
-
- h1, h2, h3 {
-    color: #e99883;
-    margin-bottom: 1rem;
- }
-
- h1 {
-     font-size: 15vw;
-     font-weight: 400;
- }
-
- p {
-     margin-bottom: 1rem;
  }
