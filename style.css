@@ -36,3 +36,66 @@ h1,h2,h3,h4,h5,h6,p, a {
 .bg-image {background-color: #e99883;}
 
 /* End Temporary Styles */
+
+
+/* Utility Classes */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded    { padding: 5%;    }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+
+.margin-b-0 { margin-bottom: 0; }
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+/* Images */
+
+.bg-image {
+    background-color: #e99883;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-sand {
+   background-image: url(/images/zen-studio-sand.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%:  
+}
+
+.bg-asana {
+    background-image: url(/images/zen-studio-asana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%:  
+ }
+
+ .bg-leaves {
+    background-image: url(/images/zen-studio-leaves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%:  
+ }
+
+ .bg-studio {
+    background-image: url(/images/zen-studio-studio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%:  
+ }
+
+ .bg-map {
+    background-image: url(/images/zen-studio-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%:  
+ }
