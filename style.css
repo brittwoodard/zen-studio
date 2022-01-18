@@ -50,6 +50,7 @@ h1,h2,h3,h4,h5,h6,p, a {
 .padded    { padding: 5%;    }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
+.padded-10 { padding: 10%;   }
 
 .margin-b-0 { margin-bottom: 0; }
 .margin-t-2 {margin-top: 2rem;}
@@ -67,6 +68,8 @@ h1,h2,h3,h4,h5,h6,p, a {
     font-weight: 400;
     font-size: 3rem;
 }
+
+.break-font {font-size: 3rem;}
 
 .button {
     border: 2px solid #e99883;
@@ -95,7 +98,7 @@ h1,h2,h3,h4,h5,h6,p, a {
    background-image: url(/images/zen-studio-sand.png);
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: 50% 50%:  
+   background-position: 50% 50%;  
 }
 
 .bg-asana {
@@ -110,21 +113,21 @@ h1,h2,h3,h4,h5,h6,p, a {
     background-image: url(/images/zen-studio-leaves.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%:  
+    background-position: 50% 50%;  
  }
 
  .bg-studio {
     background-image: url(/images/zen-studio-studio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%:  
+    background-position: 50% 50%;  
  }
 
  .bg-map {
     background-image: url(/images/zen-studio-map.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%:  
+    background-position: 50% 50%;  
  }
 
 
