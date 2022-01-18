@@ -1,0 +1,38 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Typeography & Colors
+
+font-family: 'Playfair Display', serif;
+font-weight: 400, 500, 700
+
+Peach: #e99883
+Sand: #f9f5f4
+Font: #3b3b39 */
+
+
+/* Temporary Styles */
+
+* {
+    padding: 0.5rem;
+    border: 2px solid rgb(200,200,200);
+}
+
+html, 
+body {
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6,p, a {
+    border: 2px solid #8b6a3d;
+}
+
+.bg-image {background-color: #e99883;}
+
+/* End Temporary Styles */
