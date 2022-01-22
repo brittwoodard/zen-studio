@@ -65,7 +65,7 @@ a {
 
 .margin-b-0 { margin-bottom: 0; }
 .margin-b-05 {margin-bottom: 0.5rem;}
-.margin-b-4  {margin-bottom: 4rem;}
+.margin-b-2  {margin-bottom: 2rem;}
 .margin-t-2 {margin-top: 2rem;}
 
 .left   { text-align: left; }
@@ -108,6 +108,11 @@ a {
 }
 
 .bg-light {background-color: #f9f5f4;}
+.bg-dark {background-color: #e99883;}
+
+.light-text {color: white;}
+
+.transparent {opacity: 0.8;}
 
 /* Images */
 
