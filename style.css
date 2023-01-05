@@ -1,0 +1,12 @@
+/* Colors
+Pink: #e69178
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Temporary Styles */
+header, footer, section, div, h1, h2, h3, h4, h5, h6, p, a, nav {border: 1px solid #e69178;}
