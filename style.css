@@ -1,5 +1,6 @@
 /* Colors
 Pink: #e69178
+BG color: #f9f5f4
 */
 
 * {
@@ -13,19 +14,94 @@ Pink: #e69178
 /* Temporary Styles */
 header, footer, section, div, h1, h2, h3, h4, h5, h6, p, a, nav {border: 1px solid #e69178;}
 
+body { 
+    font-family: 'Baskervville', serif;
+    color: rgb(65,60,60);
+}
+
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Didot', serif;
+    line-height: 1; 
+    margin-bottom: 1rem;
+    font-weight: normal;
     color: #e69178;
 }
 
+h1 {
+    font-size: 10vw;
+    letter-spacing: 0.2em;
+}
+
+h2 {font-size: 4rem;}
+h3 {font-size: 3rem;}
+
+p {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+p:last-child,
+li:last-child {margin-bottom: 0;}
+
+footer a {
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;
+    color: #e37165;
+    display: block;
+}
+
+ul {margin-left: 1rem;}
+li {padding-left: 0.5rem;}
+
 /* Utility Classes */
-.tall-80 {min-height: 80vh;}
+.padded-5 {padding: 5%;}
+
+.tall-30 {min-height: 30vh;}
+.tall-90 {min-height: 90vh;}
 
 .center {text-align: center;}
+.right {text-align: right;}
+
+.bold {font-weight: bold;}
+
+.featured {
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;
+    color: #e37165;
+}
+
+.copyright {
+    color: #e37165;
+    opacity: 0.8;
+    padding: 1%;
+}
+
+.button {
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid #e37165;
+    border-radius: 20rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.fas {
+    color: red;
+}
+
+.text-banner {font-size: 2rem;}
 
 .arrow {
     color: #e69178;
     text-align: center;
 }
+
+.shape-teardrop {border-radius: 20rem 20rem 0 20rem;}
+.shape-window {border-radius: 20rem 20rem 0 0;}
+
+.bg-color {background-color: #f9f5f4;}
 
 .bg-image {
     background-color: #e6dfd9;
@@ -35,5 +111,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-sand {
     background-image: url('/images/zen-studio-3.jpg');
+    background-position: center;
+}
+
+.bg-yoga {
+    background-image: url('/images/zen-studio-5.jpg');
+    background-position: center;
+}
+
+.bg-leaves {
+    background-image: url('/images/zen-studio-4.jpg');
+    background-position: 50% 50%;
+}
+
+.bg-studio {
+    background-image: url('/images/zen-studio-6.jpg');
+    background-position: center;
+}
+
+.bg-map {
+    background-image: url('/images/zen-studio-2.png');
     background-position: center;
 }
