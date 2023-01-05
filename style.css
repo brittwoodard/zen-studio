@@ -11,8 +11,8 @@ BG color: #f9f5f4
 
 [class*="col-"] {padding: 0;}
 
-/* Temporary Styles */
-header, footer, section, div, h1, h2, h3, h4, h5, h6, p, a, nav {border: 1px solid #e69178;}
+/* Temporary Styles
+header, footer, section, div, h1, h2, h3, h4, h5, h6, p, a, nav {border: 1px solid #e69178;} */
 
 body { 
     font-family: 'Baskervville', serif;
@@ -28,8 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 10vw;
-    letter-spacing: 0.2em;
+    font-size: 13vw;
+    letter-spacing: 0.1em;
 }
 
 h2 {font-size: 4rem;}
@@ -85,10 +85,19 @@ li {padding-left: 0.5rem;}
     padding: 0.5rem 2rem;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
+    margin-top: 1rem;
+}
+
+.parent {position: relative;}
+.child {
+    position: absolute;
+    bottom: 1vh;
+    left: 50vw;
 }
 
 .fas {
-    color: red;
+    color: #e69178;
+    font-size: 4rem;
 }
 
 .text-banner {font-size: 2rem;}
@@ -132,4 +141,23 @@ li {padding-left: 0.5rem;}
 .bg-map {
     background-image: url('/images/zen-studio-2.png');
     background-position: center;
+}
+
+/* Gridlex Media Queries 
+  @media (max-width: 36em)  Max 576px 	_xs-*
+  @media (max-width: 48em)  Max 768px 	_sm-*
+  @media (max-width: 64em)  Max 1024px 	_md-*
+  @media (max-width: 80em)  Max 1280px 	_lg-*
+*/
+
+/* SM Media Query */
+@media (max-width: 48em) {
+    .fas {font-size: 3rem;}
+}
+
+/* XS Media Query */
+@media (max-width: 36em) {
+    .fas {font-size: 2rem}
+    .text-banner {font-size: 1.5rem;}
+    h2, h3 {font-size: 2rem;}
 }
