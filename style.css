@@ -8,5 +8,32 @@ Pink: #e69178
     box-sizing: border-box;
 }
 
+[class*="col-"] {padding: 0;}
+
 /* Temporary Styles */
 header, footer, section, div, h1, h2, h3, h4, h5, h6, p, a, nav {border: 1px solid #e69178;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e69178;
+}
+
+/* Utility Classes */
+.tall-80 {min-height: 80vh;}
+
+.center {text-align: center;}
+
+.arrow {
+    color: #e69178;
+    text-align: center;
+}
+
+.bg-image {
+    background-color: #e6dfd9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-sand {
+    background-image: url('/images/zen-studio-3.jpg');
+    background-position: center;
+}
